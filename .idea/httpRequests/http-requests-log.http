@@ -1,0 +1,403 @@
+GET http://localhost:8080/api/post/posts
+Accept: application/json
+
+<> 2019-06-03T030154.200.json
+
+###
+
+PUT http://localhost:8080/api/post/modify
+Content-Type: application/json
+
+{
+  "id": "7",
+  "title": "fixed Title",
+  "content": "freeeeeeeeeeeeeeeeeeee"
+}
+
+<> 2019-06-03T030143.200.json
+
+###
+
+GET http://localhost:8080/api/post/posts
+Accept: application/json
+
+<> 2019-06-03T025902.200.json
+
+###
+
+POST http://localhost:8080/api/post/write/h
+Content-Type: application/json
+
+{
+  "userId": "3",
+  "title": "HOWHOW",
+  "content": "Drodi ORIYA"
+}
+
+<> 2019-06-03T025847.200.json
+
+###
+
+POST http://localhost:8080/api/post/write/h
+Content-Type: application/json
+
+{
+  "userId": "3",
+  "title": "HOWHOW",
+  "content": "WATATATA ORIYA"
+}
+
+<> 2019-06-03T025835.200.json
+
+###
+
+POST http://localhost:8080/api/post/write
+Content-Type: application/json
+
+{
+  "userId": "3",
+  "title": "HOWHOW",
+  "content": "WATATATA ORIYA"
+}
+
+<> 2019-06-03T025615.200.json
+
+###
+
+POST http://localhost:8080/api/post/write
+Content-Type: application/json
+
+{
+  "user_id": "3",
+  "title": "HOWHOW",
+  "content": "WATATATA ORIYA"
+}
+
+<> 2019-06-03T025542.200.json
+
+###
+
+GET http://localhost:8080/api/post/find/4
+Accept: application/json
+
+<> 2019-06-03T025458.200.json
+
+###
+
+GET http://localhost:8080/api/post/find/4
+Accept: application/json
+
+<> 2019-06-03T025204.500.html
+
+###
+
+GET http://localhost:8080/api/post/4
+Accept: application/json
+
+<> 2019-06-03T025004.500.html
+
+###
+
+GET http://localhost:8080/api/post/4
+Accept: application/json
+
+<> 2019-06-03T023237.500.html
+
+###
+
+GET http://localhost:8080/api/post/posts
+Accept: application/json
+
+<> 2019-06-03T023048.200.json
+
+###
+
+POST http://localhost:8080/api/post/write
+Content-Type: application/json
+
+{
+  "user_id": "3",
+  "title": "HOWHOW",
+  "content": "WATATATA ORIYA"
+}
+
+<> 2019-06-03T022941.200.json
+
+###
+
+POST http://localhost:8080/api/post/write/h
+Content-Type: application/json
+
+{
+  "user_id": "1",
+  "title": "HOWHOW",
+  "content": "WATATATA ORIYA"
+}
+
+<> 2019-06-03T022726.200.json
+
+###
+
+DELETE http://localhost:8080/api/post/delete/3
+Accept: application/json
+
+<> 2019-06-03T022532.200.json
+
+###
+
+GET http://localhost:8080/api/post/postu/1
+Accept: application/json
+
+<> 2019-06-03T022447.200.json
+
+###
+
+GET http://localhost:8080/api/post/posts
+Accept: application/json
+
+<> 2019-06-03T021204.200.json
+
+###
+
+GET http://localhost:8080/api/user/users
+Accept: application/json
+
+<> 2019-06-03T014842.200.json
+
+###
+
+POST http://localhost:8080/api/user/join
+Content-Type: application/json
+
+{
+  "account": "KIRBY",
+  "username": "POPSTAR",
+  "email": "Green@Gree.ns"
+}
+
+<> 2019-06-03T014010.200.json
+
+###
+
+GET http://localhost:8080/api/user/1
+Accept: application/json
+
+<> 2019-06-03T013739.200.json
+
+###
+
+GET http://localhost:8080/api/user/1
+Accept: application/json
+
+<> 2019-06-03T013359.200.json
+
+###
+
+GET http://localhost:8080/api/user/1
+Accept: application/json
+
+<> 2019-06-03T013247.200.json
+
+###
+
+GET http://localhost:8080/api/user/users
+Accept: application/json
+
+<> 2019-06-03T013243.200.json
+
+###
+
+GET http://localhost:8080/api/board/users
+Accept: application/json
+
+<> 2019-06-03T013227.404.html
+
+###
+
+GET http://localhost:8080/api/user/1
+Accept: application/json
+
+<> 2019-06-03T013213.200.json
+
+###
+
+GET http://localhost:8080/api/user/5
+Accept: application/json
+
+<> 2019-06-03T013150.200.json
+
+###
+
+GET http://localhost:8080/api/user/6
+Accept: application/json
+
+###
+
+POST http://localhost:8080/api/user/join
+Content-Type: application/json
+
+{
+  "account": "KIRBY",
+  "username": "POPSTAR",
+  "email": "Green@Gree.ns"
+}
+
+<> 2019-06-03T122102.200.json
+
+###
+
+POST http://localhost:8080/api/user/join
+Content-Type: application/json
+
+{
+  "account": "KIRBY",
+  "username": "POPSTAR",
+  "email": "Green@Gree.ns"
+}
+
+<> 2019-06-03T121946.404.html
+
+###
+
+PUT http://localhost:8080/api/user/modify
+Content-Type: application/json
+
+{
+  "id": "1",
+  "account": "Ttolz",
+  "username": "TooltaToolta",
+  "email": "Kanaria@xml.go"
+}
+
+<> 2019-06-03T120117.200.json
+
+###
+
+PUT http://localhost:8080/api/user/modify
+Content-Type: application/json
+
+{
+  "id": "1",
+  "account": "Ttolz",
+  "username": "TooltaToolta",
+  "email": "Kanaria@xml.go"
+}
+
+<> 2019-06-03T115744.500.html
+
+###
+
+PUT http://localhost:8080/api/user/modify
+Content-Type: application/json
+
+{
+  "id": "1",
+  "account": "Ttolz",
+  "username": "TooltaToolta",
+  "email": "Kanaria@xml.go"
+}
+
+<> 2019-06-03T115708.404.html
+
+###
+
+DELETE http://localhost:8080/api/user/delete/4
+Accept: application/json
+
+<> 2019-06-03T114933.200.json
+
+###
+
+GET http://localhost:8080/api/board/users
+Accept: application/json
+
+<> 2019-06-03T114434.200.json
+
+###
+
+GET http://localhost:8080/api/board/users
+Accept: application/json
+
+<> 2019-06-03T110357.500.html
+
+###
+
+GET http://localhost:8080/api/board/users
+Accept: application/json
+
+<> 2019-06-03T103631.500.html
+
+###
+
+GET http://localhost:8080/api/board/users
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/board/users
+Accept: application/json
+
+<> 2019-06-03T103604.500.html
+
+###
+
+GET http://localhost:8080/api/board/users
+Accept: application/json
+
+<> 2019-06-03T103528.500.html
+
+###
+
+GET http://localhost:8080/api/board/list
+Accept: application/json
+
+<> 2019-06-03T103510.404.html
+
+###
+
+GET http://localhost:8080/api/board/list
+Accept: application/json
+
+<> 2019-06-03T103126.500.html
+
+###
+
+GET http://localhost:8080/api/board/list
+Accept: application/json
+
+<> 2019-06-03T100718.500.html
+
+###
+
+GET http://localhost:8080/api/board/users
+Accept: application/json
+
+<> 2019-06-03T100705.500.html
+
+###
+
+GET http://localhost:8080/users
+Accept: application/json
+
+<> 2019-06-03T100638.404.html
+
+###
+
+GET http://localhost:8080/board/list
+
+<> 2019-05-14T105621.200.json
+
+###
+
+GET http://localhost:8080
+
+<> 2019-05-14T105252.200.json
+
+###
+
+GET http://localhost:8080
+
+<> 2019-05-14T105234.500.html
+
+###
+

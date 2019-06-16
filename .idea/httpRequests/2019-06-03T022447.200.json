@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "userId": null,
+    "title": "title 1",
+    "content": "content content 1",
+    "created": "2019-06-03T14:12:01",
+    "updated": "2019-06-03T14:12:01"
+  },
+  {
+    "id": 2,
+    "userId": null,
+    "title": "title 2",
+    "content": "content content 2",
+    "created": "2019-06-03T14:12:01",
+    "updated": "2019-06-03T14:12:01"
+  }
+]
